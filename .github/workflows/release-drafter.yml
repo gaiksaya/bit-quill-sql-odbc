@@ -10,6 +10,9 @@ jobs:
   draft-a-release:
     name: Draft a release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     steps:
       - name: Download artifacts
         uses: dawidd6/action-download-artifact@v2.27.0
