@@ -28,7 +28,7 @@ jobs:
         uses: dawidd6/action-download-artifact@v2.27.0
         with:
           workflow: sql-odbc-main.yml
-          commit: e08706e
+          commit: e08706e6e19404736cab5657731fd3e5ada29513
           workflow_conclusion: success
 
       - name: Rename and pack artifacts
